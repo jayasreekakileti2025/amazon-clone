@@ -1,0 +1,47 @@
+body{
+    font-family:Arial;
+    padding:20px;
+}
+header{
+    display:flex;
+    justify-content:spcae-between;
+    background:#131921;
+    color:white;
+    padding:10px;
+
+}
+a{
+    color:white;
+    text-decoration:none;
+
+}
+.products
+{
+    display:flex;
+    gap:20px;
+}
+.products,.cart-item
+{
+    border:1px solid #ccc;
+    padding:10px;
+    width:200px;
+
+
+}
+button
+{
+    padding:8px;
+    background:#febd69;
+    border:none;
+    cursor:pointer;
+}
+.search-box
+{
+    margin:15px 0;
+}
+.searcg-box input
+{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+}
