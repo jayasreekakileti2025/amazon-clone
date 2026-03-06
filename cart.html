@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+<meta charset="UTF-8">
+<title>Cart</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
-    <header>
-        <h2>Your Cart</h2>
-        <a href="index.html">back</a>
-    </header>
-    <div id="cartItems"></div>
-    <h3>total:$<span id="total">0</span></h3>
-    <a href="checkout.html"> <button>proceed to checkout</button></a>
-    <script src="script.js"></script>
-    
+
+<header>
+<h2>Your Cart</h2>
+<a href="index.html">back</a>
+
+
+</header>
+<div id="cartItems"></div>
+
+<h3>Total:$<span id="total">0</span></h3>
+
+<a href="checkout.html">
+    <button id="check-out-btn">proceed to checkout</button>
+</a>
+
+<script src="script.js"></script>
+
+<script>
+displayCart();
+</script>
+
 </body>
 </html>
